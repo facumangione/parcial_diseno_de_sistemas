@@ -1,4 +1,4 @@
-from cultivo import Cultivo
+from python_forestacion.Entidades.cultivos.cultivo import Cultivo
 
 class Arbol(Cultivo):
     """Clase base para árboles (Pino, Olivo)."""

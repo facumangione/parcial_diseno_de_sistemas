@@ -1,4 +1,4 @@
-from cultivo import Cultivo
+from python_forestacion.Entidades.cultivos.cultivo import Cultivo
 
 class Hortaliza(Cultivo):
     """Clase base para hortalizas (Lechuga, Zanahoria)."""

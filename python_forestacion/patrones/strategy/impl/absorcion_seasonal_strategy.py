@@ -4,7 +4,6 @@ from python_forestacion.patrones.strategy.absorcion_agua_strategy import Absorci
 class AbsorcionSeasonalStrategy(AbsorcionAguaStrategy):
     """
     Estrategia de absorción estacional: varía según la época del año.
-    Mayor en verano, menor en invierno.
     """
 
     def absorber(self, cantidad: float) -> float:

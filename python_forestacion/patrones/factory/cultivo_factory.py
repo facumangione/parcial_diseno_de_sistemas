@@ -5,10 +5,6 @@ from python_forestacion.Entidades.cultivos.zanahoria import Zanahoria
 from python_forestacion.Entidades.cultivos.tipo_aceituna import TipoAceituna
 
 class CultivoFactory:
-    """
-    Fábrica de cultivos.
-    Permite crear instancias dinámicamente según el tipo especificado.
-    """
 
     @staticmethod
     def crear_cultivo(tipo: str, **kwargs):

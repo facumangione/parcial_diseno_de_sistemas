@@ -1,5 +1,5 @@
 from datetime import date
-from herramienta import Herramienta
+from python_forestacion.Entidades.personal.herramienta import Herramienta
 
 class Tarea:
     """Actividad asignada a un trabajador."""

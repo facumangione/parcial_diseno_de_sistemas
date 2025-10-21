@@ -1,4 +1,4 @@
-from hortaliza import Hortaliza
+from python_forestacion.Entidades.cultivos.hortaliza import Hortaliza
 
 class Lechuga(Hortaliza):
     """Cultivo tipo Lechuga."""

@@ -1,4 +1,4 @@
-from arbol import Arbol
+from python_forestacion.Entidades.cultivos.arbol import Arbol
 
 class Pino(Arbol):
     """Cultivo tipo Pino."""

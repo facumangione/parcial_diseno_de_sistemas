@@ -1,5 +1,5 @@
-from arbol import Arbol
-from tipo_aceituna import TipoAceituna
+from python_forestacion.Entidades.cultivos.arbol import Arbol
+from python_forestacion.Entidades.cultivos.tipo_aceituna import TipoAceituna
 
 class Olivo(Arbol):
     """Cultivo tipo Olivo."""
