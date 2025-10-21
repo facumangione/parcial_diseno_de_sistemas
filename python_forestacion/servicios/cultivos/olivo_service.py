@@ -1,4 +1,4 @@
-from arbol_service import ArbolService
+from python_forestacion.servicios.cultivos.arbol_service import ArbolService
 from python_forestacion.Entidades.cultivos.olivo import Olivo
 
 class OlivoService(ArbolService):

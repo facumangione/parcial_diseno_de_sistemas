@@ -1,5 +1,5 @@
 from python_forestacion.patrones.singleton import singleton
-from cultivo_service import CultivoService
+from python_forestacion.servicios.cultivos.cultivo_service import CultivoService
 
 @singleton
 class CultivoServiceRegistry:

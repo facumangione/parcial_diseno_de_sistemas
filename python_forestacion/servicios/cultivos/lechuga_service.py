@@ -1,4 +1,4 @@
-from cultivo_service import CultivoService
+from python_forestacion.servicios.cultivos.cultivo_service import CultivoService
 from python_forestacion.Entidades.cultivos.lechuga import Lechuga
 
 class LechugaService(CultivoService):

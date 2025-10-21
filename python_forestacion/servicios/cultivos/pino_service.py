@@ -1,4 +1,4 @@
-from arbol_service import ArbolService
+from python_forestacion.servicios.cultivos.arbol_service import ArbolService
 from python_forestacion.Entidades.cultivos.pino import Pino
 from python_forestacion.excepciones.agua_agotada_exception import AguaAgotadaException
 

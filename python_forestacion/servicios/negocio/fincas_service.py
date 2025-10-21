@@ -1,10 +1,10 @@
-from Entidades.terrenos.tierra import Tierra
-from Entidades.terrenos.plantacion import Plantacion
-from Entidades.terrenos.registro_forestal import RegistroForestal
+from python_forestacion.Entidades.terrenos.tierra import Tierra
+from python_forestacion.Entidades.terrenos.plantacion import Plantacion
+from python_forestacion.Entidades.terrenos.registro_forestal import RegistroForestal
 
-from servicios.terrenos.tierra_service import TierraService
-from servicios.terrenos.plantacion_service import PlantacionService
-from servicios.terrenos.registro_forestal_service import RegistroForestalService
+from python_forestacion.servicios.terrenos.tierra_service import TierraService
+from python_forestacion.servicios.terrenos.plantacion_service import PlantacionService
+from python_forestacion.servicios.terrenos.registro_forestal_service import RegistroForestalService
 
 
 class FincasService:

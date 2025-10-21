@@ -1,4 +1,4 @@
-from Entidades.terrenos.plantacion import Plantacion
+from python_forestacion.Entidades.terrenos.plantacion import Plantacion
 
 class RegistroForestal:
     """Registro centralizado de todas las plantaciones."""

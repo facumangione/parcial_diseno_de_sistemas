@@ -4,11 +4,11 @@ Ejecuta una demostración completa de creación de finca y simulación de riego.
 """
 
 import time
-from servicios.negocio.fincas_service import FincasService
-from servicios.negocio.paquete import Paquete
-from riego.sensores.humedad_reader_task import HumedadReaderTask
-from riego.sensores.temperatura_reader_task import TemperaturaReaderTask
-from riego.control.control_riego_task import ControlRiegoTask
+from python_forestacion.servicios.negocio.fincas_service import FincasService
+from python_forestacion.servicios.negocio.paquete import Paquete
+from python_forestacion.riego.sensores.humedad_reader_task import HumedadReaderTask
+from python_forestacion.riego.sensores.temperatura_reader_task import TemperaturaReaderTask
+from python_forestacion.riego.control.control_riego_task import ControlRiegoTask
 
 
 def main():

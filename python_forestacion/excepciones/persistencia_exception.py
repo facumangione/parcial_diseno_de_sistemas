@@ -1,5 +1,5 @@
-from forestacion_exception import ForestacionException
-from mensajes_exception import MENSAJE_PERSISTENCIA
+from python_forestacion.excepciones.forestacion_exception import ForestacionException
+from python_forestacion.excepciones.mensajes_exception import MENSAJE_PERSISTENCIA
 
 class PersistenciaException(ForestacionException):
     """Excepción lanzada cuando ocurre un error al persistir o cargar datos."""
