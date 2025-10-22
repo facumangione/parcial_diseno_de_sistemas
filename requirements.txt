@@ -5,7 +5,6 @@
 # Este proyecto utiliza SOLO la biblioteca estándar de Python 3.13+
 # No requiere dependencias externas para funcionar.
 #
-# Para desarrollo y testing (opcional):
 # pip install -r requirements-dev.txt
 #
 # ============================================================================
